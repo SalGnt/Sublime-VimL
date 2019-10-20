@@ -27,7 +27,7 @@ contexts:
     - include: variable
     - include: expr
   comment:
-    - match: ^\s*".*$
+    - match: ^\s*".*$\n?
       scope: comment.line.quotes.viml
       captures:
         1: punctuation.definition.comment.vim
