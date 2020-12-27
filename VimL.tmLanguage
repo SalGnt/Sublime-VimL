@@ -274,7 +274,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>/(\\\\|\\/|\n[^\S\n]*\\|[^\n/])*/</string>
+					<string>[gvs]{1}/(\\\\|\\/|\n[^\S\n]*\\|[^\n/])*/</string>
 					<key>name</key>
 					<string>string.regexp.viml</string>
 				</dict>
@@ -286,7 +286,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\b(set(local|global)?|let|command|filetype|colorscheme|\w*map|\w*a(b|brev)?|syn|exe(c|cute)?|ec(ho|)?|au(tocmd|)?)\b</string>
+					<string>\b(set(local|global)?|let|command|filetype|syntax|colorscheme|\w*map|\w*a(b|brev)?|syn|exe(c|cute)?|ec(ho|)?|au(tocmd|)?)\b</string>
 					<key>name</key>
 					<string>support.function.viml</string>
 				</dict>
