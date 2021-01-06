@@ -1,28 +1,14 @@
 # Sublime VimL
-VimL Package for Sublime Text, based on [VimL.tmbundle](https://github.com/skammer/textmate-viml) for TextMate created by [skammer](https://github.com/skammer).
 
-License
--------
-The package was created by [_Salvatore Gentile_](https://twitter.com/_sgentile) and is released under **The MIT License (MIT)**.
+[![Downloads](https://packagecontrol.herokuapp.com/downloads/VimL.svg?style=for-the-badge)](https://packagecontrol.io/packages/VimL)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/SalGnt/Sublime-VimL?label=Release&style=for-the-badge)
+![License](https://img.shields.io/github/license/SalGnt/Sublime-VimL?label=License&style=for-the-badge)
 
-    The MIT License (MIT)
+VimL syntax definition package for Sublime Text.
 
-    Copyright (c) 2014 Max Vasiliev, Salvatore Gentile
+## Install
+Install the package using [Package Control](https://packagecontrol.io/).
 
-    Permission is hereby granted, free of charge, to any person obtaining a copy
-    of this software and associated documentation files (the "Software"), to deal
-    in the Software without restriction, including without limitation the rights
-    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-    copies of the Software, and to permit persons to whom the Software is
-    furnished to do so, subject to the following conditions:
-
-    The above copyright notice and this permission notice shall be included in all
-    copies or substantial portions of the Software.
-
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-    SOFTWARE.
+1. Open the command palette.
+2. Select `Package Control: Install Package`.
+3. Type `VimL` and press `Enter`.
