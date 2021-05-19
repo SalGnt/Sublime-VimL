@@ -4,6 +4,8 @@
 name: VimL
 file_extensions:
   - vim
+  - vimrc
+  - gvimrc
   - .vimrc
   - .gvimrc
 scope: source.viml
