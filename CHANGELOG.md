@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2021-05-23
+### Added
+- Highlight for `vimrc` and `gvimrc` files.
+
 ## [1.0.0] - 2021-01-06
 ### Added
 - Sublime Text .sublime-syntax definition.
@@ -44,7 +48,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - First release.
 
 
-[Unreleased]: https://github.com/SalGnt/Sublime-VimL/compare/1.0.0...HEAD
+[Unreleased]: https://github.com/SalGnt/Sublime-VimL/compare/1.0.1...HEAD
+[1.0.1]: https://github.com/SalGnt/Sublime-VimL/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/SalGnt/Sublime-VimL/compare/0.1.5...1.0.0
 [0.1.5]: https://github.com/SalGnt/Sublime-VimL/compare/0.1.4...0.1.5
 [0.1.4]: https://github.com/SalGnt/Sublime-VimL/compare/0.1.3...0.1.4
