@@ -8,6 +8,8 @@ file_extensions:
   - gvimrc
   - .vimrc
   - .gvimrc
+  - _vimrc
+  - _gvimrc
 scope: source.viml
 contexts:
   main:
