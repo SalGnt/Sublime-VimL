@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0] - 2025-01-27
+### Added
+- Highlight for `exrc` and `_exrc` files.
+- Highlight for `.nvimrc` files.
+
 ## [1.1.0] - 2021-10-01
 ### Added
 - Highlight for `_vimrc` and `_gvimrc` files.
@@ -56,7 +61,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - First release.
 
 
-[Unreleased]: https://github.com/SalGnt/Sublime-VimL/compare/1.1.0...HEAD
+[Unreleased]: https://github.com/SalGnt/Sublime-VimL/compare/1.2.0...HEAD
+[1.2.0]: https://github.com/SalGnt/Sublime-VimL/compare/1.1.0...1.2.0
 [1.1.0]: https://github.com/SalGnt/Sublime-VimL/compare/1.0.2...1.1.0
 [1.0.2]: https://github.com/SalGnt/Sublime-VimL/compare/1.0.1...1.0.2
 [1.0.1]: https://github.com/SalGnt/Sublime-VimL/compare/1.0.0...1.0.1
