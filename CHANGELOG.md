@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 - Single-quoted strings spanning multiple lines with `\` continuation ([#11](https://github.com/SalGnt/Sublime-VimL/issues/11)).
+- Variable names ending in `a` or `map` (e.g. `data`, `bitmap`) highlighted as commands ([#22](https://github.com/SalGnt/Sublime-VimL/issues/22)).
 
 ## [1.2.0] - 2025-01-27
 ### Added

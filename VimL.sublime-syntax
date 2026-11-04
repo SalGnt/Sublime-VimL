@@ -101,7 +101,7 @@ contexts:
     - match: '[gvs]{1}/(\\\\|\\/|\n[^\S\n]*\\|[^\n/])*/'
       scope: string.regexp.viml
   support_function:
-    - match: \b(set(local|global)?|let|command|filetype|syntax|colorscheme|\w*map|\w*a(b|brev)?|syn|exe(c|cute)?|ec(ho|)?|au(tocmd|)?)\b
+    - match: \b(set(local|global)?|let|command|filetype|syntax|colorscheme|[nvxsoilct]?(nore)?map|[nvxsoilct]?unmap|[nvxsoilct]?mapclear|[ic]?(nore|un)?ab(b(r(e(v(i(a(t(e)?)?)?)?)?)?)?)?|[ic]?abclear|syn|exe(c|cute)?|ec(ho|)?|au(tocmd|)?)\b
       scope: support.function.viml
   support_type:
     - match: <.*?>
