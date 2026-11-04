@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [1.3.0] - 2026-11-04
 ### Added
 - Detect VimL files from a `ft=vim` modeline on the first line ([#20](https://github.com/SalGnt/Sublime-VimL/issues/20)).
 
@@ -67,7 +69,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - First release.
 
 
-[Unreleased]: https://github.com/SalGnt/Sublime-VimL/compare/1.2.0...HEAD
+[Unreleased]: https://github.com/SalGnt/Sublime-VimL/compare/1.3.0...HEAD
+[1.3.0]: https://github.com/SalGnt/Sublime-VimL/compare/1.2.0...1.3.0
 [1.2.0]: https://github.com/SalGnt/Sublime-VimL/compare/1.1.0...1.2.0
 [1.1.0]: https://github.com/SalGnt/Sublime-VimL/compare/1.0.2...1.1.0
 [1.0.2]: https://github.com/SalGnt/Sublime-VimL/compare/1.0.1...1.0.2
