@@ -80,8 +80,22 @@ contexts:
     - match: '"(\\\\|\\"|\n[^\S\n]*\\|[^\n"])*"'
       scope: string.quoted.double.viml
   string_quoted_single:
-    - match: '''(''''|\n[^\S\n]*\\|[^\n''])*'''
-      scope: string.quoted.single.viml
+    - match: "'"
+      push: string_quoted_single_body
+  string_quoted_single_body:
+    - meta_scope: string.quoted.single.viml
+    - match: "''"
+      scope: constant.character.escape.viml
+    - match: "'"
+      pop: true
+    - match: \n
+      set: string_quoted_single_continuation
+  string_quoted_single_continuation:
+    # Strings can span lines only through a `\` line continuation.
+    - match: ^\s*\\
+      set: string_quoted_single_body
+    - match: ^
+      pop: true
   string_regex:
     - match: '[gvs]{1}/(\\\\|\\/|\n[^\S\n]*\\|[^\n/])*/'
       scope: string.regexp.viml
