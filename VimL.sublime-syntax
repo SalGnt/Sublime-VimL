@@ -13,6 +13,7 @@ file_extensions:
   - _vimrc
   - _gvimrc
   - _exrc
+first_line_match: '^(?:.*\s)?(?:vi|vim|ex):\s*(?:set?\s+)?.*\b(?:ft|filetype)=vim\b'
 scope: source.viml
 contexts:
   main:
